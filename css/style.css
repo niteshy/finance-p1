@@ -122,6 +122,18 @@ h1 {
 	color:#acacac;
 }
 
+.h1_vivaRawText {
+	margin:0;
+	padding:0 0 30px 30px;
+	background:none;
+	font-family: 'Raleway', sans-serif;
+	font-style:italic;
+	font-size:18px;
+	line-height:24px;
+	font-style:italic;
+	color:#acacac;
+}
+
 h4 {
 	margin:0;
 	padding:0 0 33px 0;
@@ -176,6 +188,9 @@ img.icon_img {
 }
 
 .filtr_bg {text-align:center;
+}
+
+.filtr_rightWidget {text-align:right;
 }
 
 #slide1 h1 {
