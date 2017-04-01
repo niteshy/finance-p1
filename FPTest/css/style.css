@@ -54,6 +54,12 @@ a:focus{
 	float: left;
 	clear: both;
 }
+.section-condApply p{
+	float: right;
+	clear: both;
+	font-size:xx-small;
+	color: red;
+}
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -561,7 +567,7 @@ label {
 }
 
 button.btn.tf-btn.btn-default {
-	float: right;
+	float: center;
 	background: #FCAC45;
 	border: 0;
 	border-radius: 0;
