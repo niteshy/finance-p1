@@ -80,7 +80,14 @@ function main() {
 				      ],
   	  });
 
-      $("#testimonial").owlCarousel({
+      $("#testimonialMain").owlCarousel({
+        navigation : false, // Show next and prev buttons
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        singleItem:true
+        });
+
+      $("#testimonialChild").owlCarousel({
         navigation : false, // Show next and prev buttons
         slideSpeed : 300,
         paginationSpeed : 400,
